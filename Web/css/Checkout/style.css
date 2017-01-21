@@ -1,0 +1,159 @@
+.cart {
+  margin: 50px auto;
+  width: 450px;
+  overflow: hidden;
+  color: white;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.6);
+  background: #d3ddff;
+  border: 1px solid #202020;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.cart-top {
+  position: relative;
+  z-index: 1;
+  height: 24px;
+  line-height: 24px;
+  padding: 8px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #eee;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
+  background: #b9c9fe;
+  border-bottom: 1px solid #222;
+  border-radius: 2px 2px 0 0;
+
+}
+
+.cart-top-title {
+  float: left;
+  line-height: 12px;
+}
+
+.cart-top-info {
+  float: right;
+}
+
+.cart-item {
+  position: relative;
+  line-height: 20px;
+  padding: 10px 80px 10px 15px;
+  font-weight: bold;
+  background: #d3ddff;
+  border-bottom: 1px solid #222;
+  border: 1px solid #222;
+
+}
+.cart-item-title
+{
+  color: black;
+}
+.cart-item:first-child {
+  margin-top: -1px;
+  padding-top: 11px;
+}
+
+.cart-item-pic {
+  position: relative;
+  float: left;
+  margin: -2px 12px 10px -7px;
+}
+.cart-item-pic > img {
+  display: block;
+  height: 90px;
+  width: 120px;
+  border-radius: 3px;
+}
+.cart-item-pic:before {
+  content: '';
+  position: absolute;
+  top: -1px;
+  bottom: -1px;
+  left: -1px;
+  right: -1px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  background-image: -webkit-linear-gradient(top left, rgba(255, 255, 255, 0.15) 50%, transparent 50%);
+  background-image: -moz-linear-gradient(top left, rgba(255, 255, 255, 0.15) 50%, transparent 50%);
+  background-image: -o-linear-gradient(top left, rgba(255, 255, 255, 0.15) 50%, transparent 50%);
+  background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.15) 50%, transparent 50%);
+  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.12);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.12);
+}
+.cart-bottom .total
+{
+  color:#bf0000;
+  line-height: 28px;
+}
+.total input
+{
+  background-color:#d3ddff ;
+  text-align: center;
+  font-weight: bold;
+  font-family:armenian;
+  font-size: 1.3em;
+  color: #024e7b;
+
+}
+.cart-bottom .purchase
+{
+  margin-top: 15px;
+  width: 125px;
+  height: 35px;
+  float: right;
+
+}
+.purchase .acheter
+{
+  width: 120px;
+  height: 32px;
+}
+.cart-item-desc {
+  display: block;
+  font-size: 12px;
+  font-weight: normal;
+  color: #08080b;
+}
+
+.cart-item-price {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  margin-top: -10px;
+  color: #024e7b;
+}
+
+.cart-bottom {
+  padding: 15px 5px 15px 20px;
+  margin-top: -13px;
+  font-weight: bold;
+  background: #b9c9fe;
+  color: black;
+  height: 33px;
+
+}
+.cart-bottom > .cart-button {
+  float: right;
+}
+
+.cart-button {
+  line-height: 29px;
+  padding: 0 25px;
+  color: white;
+  text-decoration: none;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+  background: #024e7b padding-box;
+  border: 1px solid #333;
+  border-radius: 4px;
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.15), inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+}
+.cart-button:hover {
+  background-color: #024e7b;
+}
+.cart-button:active {
+  background-image: none;
+  border-color: #024e7b;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.05);
+}

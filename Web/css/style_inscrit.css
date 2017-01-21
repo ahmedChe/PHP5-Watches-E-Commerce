@@ -1,0 +1,41 @@
+BODY {
+	PADDING-RIGHT: 0px; 
+	PADDING-LEFT: 0px; 
+	PADDING-BOTTOM: 0px; 
+	MARGIN: 0px; 
+	PADDING-TOP: 0px
+}
+
+form.css fieldset 
+  {
+  padding: 1em;
+  width : 50%
+  }
+form.css label 
+  {
+  display: inline;
+  float: left;
+  width: 70px;
+  } 
+#formu input.valid,#texte form input.valid{
+background-color:#FFF;
+border-color:#fff;
+border-style:solid;
+border-width:1px;
+color:#bf0000;
+cursor:pointer;
+font-weight:700;
+text-align:center;
+}
+
+#formu input.valid:hover,#texte form input.valid:hover{
+background-color:#FFF;
+border:1px solid #fff;
+color:#000;
+}
+
+#formu input.valid:active,#texte form input.valid:active{
+background-color:#FFF;
+border:1px solid #fff;
+color:#fff;
+}

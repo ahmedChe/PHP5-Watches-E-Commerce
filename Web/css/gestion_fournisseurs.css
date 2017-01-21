@@ -1,0 +1,91 @@
+#tableau {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    margin: 10px 0;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+	margin-left:55px;
+	margin-top:10px ;
+}
+#tableau th {
+    font-size: 13px;
+    font-weight: normal;
+    padding: 8px;
+    background: #b9c9fe url('C:/Program Files (x86)/EasyPHP-DevServer-14.1VC11/data/localweb/projects/E-Commerce/Web/images/gradhead.png') repeat-x;
+    border-top: 2px solid #d3ddff;
+    border-bottom: 1px solid #fff;
+	text-align: center;
+    color: #0000;
+	font-weight:bold ;
+}
+#tableau td {
+    padding: 8px;
+	text-align: center;
+    border-bottom: 1px solid #fff;
+    color: #0000;
+    border-top: 1px solid #fff;
+    background: #e8edff url('C:/Program Files (x86)/EasyPHP-DevServer-14.1VC11/data/localweb/projects/E-Commerce/Web/images/gradback.png') repeat-x;
+}
+#tableau tfoot tr td {
+    background: #e8edff;
+    color: #99c;
+    text-align:center;
+}
+#tableau tbody tr:hover td {
+    background: #d0dafd url('C:/Program Files (x86)/EasyPHP-DevServer-14.1VC11/data/localweb/projects/E-Commerce/Web/images/gradhover.png') repeat-x;
+    color: #339;
+}
+#tableau a:hover {
+    text-decoration:underline;
+}
+
+	.bouton 
+	{
+		width:150px;
+		height:35px;
+		background-color:#b9c9fe;
+		border: 1px solid #656565;
+		color:white;
+		text-align:center;
+		border-radius:10px;
+		display:block;
+		vertical-align:middle;
+
+	}
+.bouton a 
+{
+	color:black;
+	vertical-align:middle;
+}
+#consulter a
+{
+	line-height:35px;
+
+}
+#ajouter
+{
+	margin-left: 350px;
+}
+th .bouton
+{
+	height:35px;
+	width:300px;
+	background-color:#e8edff;
+	color:black;
+	text-align:center;
+	margin-left:30px;
+	margin-top:5px;
+
+}
+.commande .bouton 
+{
+	height:45px;
+	font-family:times, serif;
+	 font-size:115%;
+	padding-top:-35px;
+}
+.commande .bouton a
+{
+	margin-bottom:80px ;
+}

@@ -1,0 +1,54 @@
+#global {	
+	MARGIN-TOP: -120px; 
+	LEFT: 50%; 
+	MARGIN-LEFT: -350px; 
+	WIDTH: 700px; 
+	POSITION: absolute; 
+	TOP: 50%; HEIGHT: 400px; 
+}
+fieldset 
+  {
+  background:#b9c9fe;
+  color:black;
+  margin-top: 5px;
+  width : 50%
+ 
+  padding-top:5px;
+  }
+form.css label 
+  {
+  display: inline;
+  float: left;
+  width: 150px;
+  } 
+  form
+  {
+	  margin-top:10px;
+  }
+.espace
+ {
+	 line-height:30px;
+	 padding-left:150px;
+ }
+#formu input.valid:hover,#texte form input.valid:hover{
+background-color:#FFF;
+border:1px solid #fff;
+color:#000;
+}
+
+#formu input.valid:active,#texte form input.valid:active{
+background-color:#FFF;
+border:1px solid #fff;
+color:#fff;
+}
+.btn1 {
+	border: none;
+	color: #FFF;
+	cursor: pointer;
+	padding:40px 150px;
+	display: inline-block;
+	font-size: 0.85em;
+	text-transform: uppercase;
+	width: 52%;
+	text-align: center;
+}

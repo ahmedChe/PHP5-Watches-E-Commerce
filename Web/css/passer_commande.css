@@ -1,0 +1,30 @@
+.espace
+{
+    line-height: 95px;
+}
+form input
+{
+    border-radius:15px;
+    width: 130px;
+    height: 24px;
+    margin-top: 0px;
+}
+
+#cmd .bouton
+{
+    margin-top: 15px;
+    margin-left: 80px;
+    color:black;
+    line-height: 30px;
+    width: 95px;
+
+}
+
+#vis .bouton
+{
+    margin-top: 0px;
+}
+#tableau
+{
+    margin-left:100px;
+}
